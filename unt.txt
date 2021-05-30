@@ -1,0 +1,28 @@
+<div class="row" id='main'>
+<div class="input-field col s12 l5 offset-l4">
+          <input placeholder="Enter Country Name....." id="first_name" type="text" class="validate">
+          <label for="first_name">Country Name</label>
+        </div><br><br>
+
+	<div class="col s12 l6 offset-l5">
+   
+   <button class="btn waves-effect waves-light s12 l5 " type="submit" name="action" id="btn1">Submit
+    <i class="material-icons right">send</i>
+  </button> 
+  </div>
+
+</div>
+
+
+
+#btn1{
+	margin-top: 40px;
+	margin-left: 40px;
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

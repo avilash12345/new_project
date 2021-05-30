@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>My New App</title>
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="mate/css/materialize.min.css">
+
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="mate/js/materialize.min.js"></script>
+</head>
+<body>
+	
+
+ <nav>
+    <div class="nav-wrapper container">
+      <a href="../index.html" class="brand-logo">MATERIALIZE</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="weather.html">Weather</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav teal accent-2" id="mobile-demo">
+    <li><a href="weather.html">Weather</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+
+
+
+
+
+<div class="row" id='cdn'>
+<div class=" col s12 l5 offset-l4" id="cdn1">
+ <h1 id="cdn2">WEATHER APP</h1> 
+</div>
+</div>
+
+<div class="row" id='main'>
+<div class=" col s12 l5 offset-l4">
+
+  <div class="app-main">
+        <!--input box start-->
+       <div class="searchinputbox">
+            <input type="text" id="input-box" class="input-box" placeholder="enter city name...." autocomplete="off">
+
+        </div>
+        <!--inputbox end-->
+        <!--weather body start-->
+        <div class="weather-body">
+            <div class="location-details">
+                <!--Location detail and date-->
+                <div class="city" id="city"></div>
+                <div class="city1" id="city1"></div>
+                <div class="date" id="date"></div>
+            </div>
+            <!--location end-->
+            <div class="weather-status">
+                <div class="temp" id="temp"></div>
+                <div class="max" id="max"></div>
+                <div class="min" id="min"></div>
+                <div class="weather" id="weather"></div>
+                <div class="weather-icon" id="weathericon"><img src="" id="weathericon"></div>
+            </div>
+
+
+        </div>
+        <!--weather body end-->
+   
+
+        </div>
+      </div>
+
+
+
+<!--
+   <div class="row">
+    <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+
+    </div>
+
+     <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+
+    </div>
+
+     <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+-->
+
+  
+ 
+
+
+  <!--Javascript-->
+
+  <script src="app.js"></script>
+  <script src="weather.js"></script>
+
+ 
+  <script>
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+
+    $('textarea#textarea2').characterCounter();
+  });
+
+ </script>
+ 
+
+</body>
+</html>
+        
+	
